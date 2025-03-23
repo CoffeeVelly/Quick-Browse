@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Quick Browse
+Comment=Quickly access your favorite websites
+Exec=/home/vellykiey/ProjectSeikai/quick_browse/build/linux/x64/release/bundle/quick_browse
+Icon=quick-browse
+Terminal=false
+Categories=Network;WebBrowser;

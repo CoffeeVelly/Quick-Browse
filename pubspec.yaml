@@ -1,0 +1,39 @@
+name: quick_browse
+description: "Quick Browse is a simple and efficient Linux application that allows you to quickly access your favorite websites through Google Chrome."
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.5.2
+  sqflite: ^2.4.2
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  window_size: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-VariableFont_wght.ttf
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/Outfit-VariableFont_wght.ttf
+
+platforms:
+  linux:
