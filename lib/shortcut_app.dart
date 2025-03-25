@@ -333,7 +333,7 @@ class _ShortcutAppState extends State<ShortcutApp> {
             ),
           )
         : Text(
-          'Quick Browse through Google!',
+          'Quick Browse Explore!',
           style: TextStyle(
             fontSize: 22,
             fontWeight: FontWeight.w600,
