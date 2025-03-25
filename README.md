@@ -8,7 +8,7 @@
 
 ## Github链接：[QuickBrowse](https://github.com/CoffeeVelly/Quick-Browse)
 
-## 功能：
+## 功能，使用系统的默认浏览器：
 
 #### 在Quick Browse中，在主界面的右下角，有一个**"+"**按钮，用于添加对应的网页。
 
